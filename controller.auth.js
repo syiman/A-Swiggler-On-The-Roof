@@ -1,5 +1,5 @@
 app.controller('AuthCtrl', ['$scope', '$location', '$interval', 'DataService', function ($scope, $location, $interval, DataService) {
-    var id = fetch();
+    var id = 'WsJIcCuKYUCZmHggBby5vD3X';
     $scope.ready = false;
     var terrainData = [];
     var checkGapi = $interval(checkAuth, 250);
