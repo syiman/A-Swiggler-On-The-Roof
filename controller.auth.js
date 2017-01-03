@@ -3,7 +3,7 @@ app.controller('AuthCtrl', ['$scope', '$location', '$interval', 'DataService', f
     $scope.ready = false;
     var terrainData = [];
     var checkGapi = $interval(checkAuth, 250);
-    var sheetId = '16z6l4rfiOPMszGe3sWg1fRylMzD8D_Qld_HgfYyyu5g';
+    var sheetId = '1mcRF3jqVMOkmRNqB6O5pQTasZPOhpamvkymprDTa1Y0';
     $scope.loadingIcon = pickLoadingIcon();
     $scope.loadingText = pickLoadingText();
     var bar = document.getElementById('progress'); 
