@@ -79,7 +79,7 @@ app.controller('AuthCtrl', ['$scope', '$location', '$interval', 'DataService', f
     function pickLoadingText(){
     	var rand = Math.floor((Math.random() * 10) + 1);
     	switch(rand){
-		case 1: return "Being passiveaggressive to Deallocate in Dms..."; break;
+	    	case 1: return "Being passiveaggressive to Deallocate in Dms..."; break;
 	    	case 2: return "Trying to not cry..."; break;
 	    	case 3: return "Deleting evidenceiamatalentlesshack.txt..."; break;
 	    	case 4: return "Putting name on webapp..."; break;
