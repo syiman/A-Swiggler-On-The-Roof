@@ -82,7 +82,7 @@ app.controller('AuthCtrl', ['$scope', '$location', '$interval', 'DataService', f
 		case 1: return "Being passiveaggressive to Deallocate in Dms..."; break;
 	    	case 2: return "Trying to not cry..."; break;
 	    	case 3: return "Deleting evidenceiamatalentlesshack.txt..."; break;
-	    	case 4: return "Putting name on webapp..."; break;
+	    	case 4: return "Putting name on webapp that belongs to others..."; break;
 	    	case 5: return "Whistling Casually..."; break;
 	    	case 6: return "Fixing a bug Deallocate intentionally left in..."; break;
 	    	case 7: return "Staring at loading bar..."; break;
